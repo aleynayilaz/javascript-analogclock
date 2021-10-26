@@ -11,6 +11,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background-color:#a08db0;   
+   
 }
 .clock{
     width: 350px;
@@ -25,6 +26,14 @@ body{
     box-shadow: inset 0 0 30px rgba(0,0,0,.1),
                 0 20px 20px rgba(0,0,0,.2),
                 0 0 0 4px rgb(218, 186, 210);
+}
+ .number {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+    font-size: 1.5rem;
 }
 .clock::before{
     content: '';
