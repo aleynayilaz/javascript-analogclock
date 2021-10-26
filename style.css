@@ -9,8 +9,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 95vh;
-    background-color:#a08db0
+    min-height: 100vh;
+    background-color:#a08db0;   
 }
 .clock{
     width: 350px;
@@ -18,11 +18,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff url(img/clock.png);
-    background-size: cover;
+    background-image: url(img/pink.png);
     background-color: rgb(233, 214, 214);
     border-radius: 50%;
-    border: 20px solid rgb(142, 114, 148);
+    border: 20px solid rgb(233, 214, 214);
     box-shadow: inset 0 0 30px rgba(0,0,0,.1),
                 0 20px 20px rgba(0,0,0,.2),
                 0 0 0 4px rgb(218, 186, 210);
@@ -36,7 +35,7 @@ body{
     border: 2px solid #fff;
     z-index: 100000;
     border-radius: 50%;
-
+    
 }
 .hour,
 .min,
@@ -92,5 +91,6 @@ body{
     background: #ff6767;
     z-index: 12;
     border-radius: 6px 6px 0 0;
+
 
 }
